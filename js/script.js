@@ -9,7 +9,7 @@ jQuery(document).ready(function($){
             return false;
         }
 
-        $(".add-here").prepend(textToAdd);
+        $("#tasks").prepend(textToAdd);
 
         
         });
